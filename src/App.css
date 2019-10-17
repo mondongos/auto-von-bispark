@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.humidity-container {
+  max-width: 400px;
+  padding: 20px;
+  background: #f8f8f8;
+}
+
+.humidity-level {
+  font-size: 20px
+}
+
+.soilph-container {
+  max-width: 400px;
+  padding: 20px;
+  background: #f8f8f8;
+}
+
+.soilph-level {
+  font-size: 20px
+}
