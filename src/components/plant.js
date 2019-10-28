@@ -5,6 +5,22 @@ import {Container, Row, Col, Image} from 'react-bootstrap'
 
 
 export default class Plant extends React.Component {
+    constructor(props) {
+        super(props)
+
+        this.state = {
+            phlevel: '', 
+            humidity
+        }
+    }
+
+    checkPH = () => {
+        if(this.state.humidity <= 0.94 ) {
+            
+        }
+    }
+
+
     render() {
         return (
             <Container>
